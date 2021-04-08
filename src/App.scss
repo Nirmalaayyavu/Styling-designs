@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+body{
+  line-height: 1 !important;
+}
+p{
+  margin:0 !important;
+  text-align: left;
+}
+.container-fluid{
+  border-top:1px solid #252525;
+  border-bottom:1px solid #252525
+}
+
+.title-section{
+  margin:17px 20px 20px 0px;
+  padding:0 !important;
+  font-family: 'Graphite Std';
+  color:#252525;
+    & p:first-child{
+      font-size:20px;
+      font-weight:600;
+      padding-bottom:5px
+    }
+    & p:last-child{
+      font-size: 12px;
+      font-weight:400;
+    }
+    
+}
+.bottom-row{
+  margin-bottom: 18px;
+}
+.bottom-section {
+  padding:0px 25px 0px 10px  !important;
+  margin:0 !important;
+  border-right:1px solid #767676;
+
+      div{
+        text-align: left;
+      }
+
+      & span:first-child{
+        font-size:12px;
+        font-weight:normal;
+        color:#767676;
+        padding-bottom:6px;
+        display:inherit;
+
+      } 
+
+      & span:last-child{
+        font-size:15px;
+        font-weight:500;
+        font-family: "Graphite Std";
+        color:#252525;
+        display:inherit
+      }
+    
+}
+
+.right-section{
+  margin:15px 0px 18px 20px;
+  padding:0px;
+  .col{
+  align-self: center;
+  }
+  .button-section{
+    text-align: left;
+  }
+
+  & button {
+    font-family: "Graphite Std";
+    font-size: 14px;
+    border:None;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px;
+    width:25%;
+
+  }
+  .teritary-button{
+    color:#252525;
+    border: 1px solid #252525 ;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    & :hover{
+      opacity: 7%
+    }
+    &:active{
+      opacity: 15%;
+    }
+  }
+  .secondary-button{
+    color:#ffffff;
+    background-color: #4D6474;
+    & :hover{
+      background-color:#3E505C;
+    }
+    &:active{
+      background-color: #31404A;
+    } 
+
+  }
+
+}
+.btn-link {
+   font-size: 16px;
+   font-family: "Graphite Std";
+   color:#252525 !important;
+
+}
