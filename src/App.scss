@@ -40,6 +40,7 @@ p{
 
       div{
         text-align: left;
+
       }
 
       & span:first-child{
@@ -48,6 +49,7 @@ p{
         color:#767676;
         padding-bottom:6px;
         display:inherit;
+        font-family: 'Pewter';
 
       } 
 
@@ -60,10 +62,21 @@ p{
       }
     
 }
+.bottom-row{
+    div{
+      &:last-child{
+        border: 0  !important
+      }
+    }
+}
+
 
 .right-section{
   margin:15px 0px 18px 20px;
-  padding:0px;
+  padding:0  !important;
+  div > div:first-child{
+    border-right:1px solid
+  }
   .col{
   align-self: center;
   }
@@ -107,7 +120,22 @@ p{
 }
 .btn-link {
    font-size: 16px;
-   font-family: "Graphite Std";
+   font-family: "Pewter";
    color:#252525 !important;
-
+  
+}
+.link-section{
+  text-align: right;
+  position: relative;
+  left: 10px;
+}
+.bottom-section:last-child{
+    div {
+      span:last-child{
+        display:inline;
+      }
+      & span:nth-child(2){
+        padding-right: 10px;
+      }
+    }
 }

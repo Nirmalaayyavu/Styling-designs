@@ -10,3 +10,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Pewter';
+    src: url('Pewter.eot');
+    src: url('Pewter.eot?#iefix') format('embedded-opentype'),
+        url('Pewter.woff2') format('woff2'),
+        url('Pewter.woff') format('woff'),
+        url('Pewter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
